@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Introduction — Helly Patel</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<style>
+:root{
+    --bg:#F5F3EE;
+    --card:#FFFFFF;
+    --ink:#20272A;
+    --ink-soft:#54605F;
+    --pine:#28564C;
+    --gold:#8A6714;
+    --rule:#DCD8CE;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:'Source Serif 4',Georgia,serif;-webkit-font-smoothing:antialiased;}
+  h1,h2,h3,.sans{font-family:'Bricolage Grotesque','Source Serif 4',sans-serif;margin:0;font-weight:600;letter-spacing:-0.015em;}
+  p{margin:0;}
+  a{color:var(--pine);text-decoration:none;border-bottom:1px solid rgba(40,86,76,0.4);}
+  a:hover{color:var(--gold);border-color:rgba(138,103,20,0.55);}
+  .nav a{border-bottom:none;color:var(--ink-soft);font-size:0.97rem;padding:8px 2px;font-family:'Bricolage Grotesque',sans-serif;font-weight:500;}
+  .nav a:hover{color:var(--pine);}
+  .nav .here{color:var(--ink);border-bottom:2px solid var(--pine);}
+  .card{background:var(--card);border:1px solid var(--rule);border-radius:4px;}
+  .photo{width:100%;height:auto;display:block;border-radius:4px;}
+  .lead{font-size:1.14rem;line-height:1.85;}
+  .fact{display:flex;gap:14px;align-items:baseline;padding:13px 0;border-bottom:1px solid var(--rule);}
+  .fact-k{font-family:'Bricolage Grotesque',sans-serif;font-weight:600;font-size:0.82rem;color:var(--pine);min-width:112px;}
+  .fact-v{font-size:0.99rem;}
+  .two{display:grid;grid-template-columns:1.3fr 0.7fr;gap:56px;align-items:start;}
+  @media (max-width:820px){ .two{grid-template-columns:1fr;gap:32px;} }
+</style>
+</head>
+<body>
+<div style="width:100%;background:var(--bg);">
+
+  <div style="width:100%;border-bottom:1px solid var(--rule);background:var(--bg);">
+    <div style="max-width:1000px;margin:0 auto;padding:18px 24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;">
+      <span class="sans" style="font-size:1.02rem;">Helly Patel</span>
+      <div class="nav" style="display:flex;gap:26px;flex-wrap:wrap;">
+        <a class="here" href="index.html">Introduction</a>
+        <a href="photos.html">Photos</a>
+        <a href="what-is-an-ra.html">What is an RA?</a>
+      </div>
+    </div>
+  </div>
+
+  <div style="max-width:1000px;margin:0 auto;padding:60px 24px 76px;">
+
+    <p class="sans" style="font-size:0.85rem;color:var(--pine);margin-bottom:14px;">Meet your RA</p>
+    <h1 style="font-size:clamp(2rem,4.8vw,3.3rem);line-height:1.12;max-width:760px;">Hi everyone! My name is Helly, and I am so excited to be your RA this fall.</h1>
+
+    <div class="two" style="margin-top:46px;">
+      <div>
+        <p class="lead">
+          I am here to help you navigate residence hall life, answer your questions, and make sure our floor actually feels like home instead of just a building you sleep in. If something is confusing, broken, or just weird, I would rather you ask me than sit with it.
+        </p>
+        <p class="lead" style="margin-top:22px;">
+          I am an Applied Data Science major at Penn State, originally from Gujarat, India. I know what it feels like to arrive somewhere completely new and overwhelming, where you do not know a single person and everything takes twice as long to figure out. I have been there. So you can always come to me when you need help finding your footing.
+        </p>
+        <p class="lead" style="margin-top:22px;">
+          When I am not on RA duty, you can find me doing yoga or Pilates, going for a run, listening to Taylor Swift, or working on tech projects with friends. I am also a huge foodie, especially when it comes to Asian food, and I am always looking for a new place to try. If you know a good spot near campus, my door is open.
+        </p>
+      </div>
+
+      <div>
+        <img class="photo" src="images/campus.jpeg" alt="Helly standing outside a brick residence hall on campus">
+        <div style="margin-top:24px;">
+          <div class="fact"><span class="fact-k">Home</span><span class="fact-v">Gujarat, India</span></div>
+          <div class="fact"><span class="fact-k">Studying</span><span class="fact-v">Applied Data Science</span></div>
+          <div class="fact"><span class="fact-k">Find me in</span><span class="fact-v">East Halls</span></div>
+          <div class="fact"><span class="fact-k">Ask me about</span><span class="fact-v">Where to eat around State College</span></div>
+          <div class="fact" style="border-bottom:none;"><span class="fact-k">On repeat</span><span class="fact-v">Taylor Swift, always</span></div>
+        </div>
+      </div>
+    </div>
+
+    <p style="margin-top:58px;color:var(--ink-soft);">
+      Next: <a href="photos.html">a few photos of me</a>, and <a href="what-is-an-ra.html">what an RA actually does</a>.
+    </p>
+
+  </div>
+</div>
+</body>
+</html>
